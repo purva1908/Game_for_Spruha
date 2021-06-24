@@ -24,7 +24,16 @@ footer {
   background-image: url("images/dog.jpg");
   background-size: 150px 150px;
   background-repeat: no-repeat;
-  
+  position: center;
+}
+
+.d:hover{
+  opacity: 0.5;
+}
+
+
+.d:active{
+  background-image: ;
 }
 
 .c {
@@ -33,10 +42,18 @@ footer {
   background-repeat: no-repeat;
 }
 
+.c:hover{
+  opacity: 0.5;
+}
+
 .h {
   background-image: url("images/horse.jpg");
   background-size: 150px 150px;
   background-repeat: no-repeat;
+}
+
+.h:hover{
+  opacity: 0.5;
 }
 
 .m {
@@ -45,10 +62,18 @@ footer {
   background-repeat: no-repeat;
 }
 
+
+.m:hover{
+  opacity: 0.5;
+}
 .p {
   background-image: url("images/parrot.jpg");
   background-size: 150px 150px;
   background-repeat: no-repeat;
+}
+
+.p:hover{
+  opacity: 0.5;
 }
 
 .s {
@@ -57,10 +82,16 @@ footer {
   background-repeat: no-repeat;
 }
 
+.s:hover{
+  opacity: 0.5;
+}
 
 
 .set {
   margin: 10% auto;
+  position: fixed;
+  left: 300px;
+  margin-top: 5%;
 }
 
 .pressed {
@@ -83,7 +114,7 @@ footer {
   display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: left;
+  text-align: right;
   margin: 10px;
   background-color: white;
 }
