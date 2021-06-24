@@ -29,32 +29,32 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
 
   switch (key) {
-    case "d":
+    case "dog":
       var dog = new Audio("sounds/dog.wav");
       dog.play();
       break;
 
-    case "c":
+    case "cat":
       var cat = new Audio("sounds/cat.wav");
       cat.play();
       break;
 
-    case "h":
+    case "horse":
       var horse = new Audio('sounds/horse.wav');
       horse.play();
       break;
 
-    case "m":
+    case "monkey":
       var monkey = new Audio('sounds/monkey.wav');
       monkey.play();
       break;
 
-    case "p":
+    case "parrot":
       var parrot = new Audio('sounds/parrot.wav');
       parrot.play();
       break;
 
-    case "s":
+    case "sparrow":
       var sparrow = new Audio('sounds/sparrow.mp3');
       sparrow.play();
       break;
